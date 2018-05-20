@@ -9,15 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
     <style>
      #all {
-       width:1200px;
-       height: 800px;
 
+       width: 700px;
+       height: 800px;
        margin: 0 auto;
 
+     }
+     .bolg {
+       background:#0a2047;
+       position: relative;
      }
      .allLeft {
        background: #EAEAEA;
        position: absolute;
+       height: 800px;
+       top: 103px;
      }
      .nameOcc {
        padding-left: 20px;
@@ -39,7 +45,29 @@
      }
      .allRight {
        float: left;
-       margin-left: 380px;
+       margin-left: 230px;
+     }
+     .baiBg {
+       position: absolute;
+       top: 10px;
+       left: 270px;
+       color: white;
+     }
+     .baiGit {
+       position: absolute;
+       top: 35px;
+       left: 270px;
+       color: white;
+     }
+     .baiPost {
+       position: absolute;
+       top: 60px;
+       left: 270px;
+       color: white;
+     }
+     h1 {
+       color: white;
+       padding: 20px 20px 20px 80px;
      }
      h2 {
        display: block;
@@ -54,65 +82,85 @@
        margin-left: 25px;
      }
     </style>
+ </head>
+ <body>
+   <div id="all">
+     <div class="bolg">
+       <h1>侯垒</h1>
+       <div class="baiBg">
+         博客：<a href="http://www.cnblogs.com/xiaobai1/">http://www.cnblogs.com/xiaobai1/</a>
+       </div>
+       <div class="baiGit">
+         Github：<a href="https://github.com/libailei">https://github.com/libailei</a>
+       </div>
+       <div class="baiPost">
+         邮箱：nunu18041109893@outlook.com
+       </div>
+     </div>
+     <div class="allLeft">
+       <div class="nameOcc">
 
-</head>
+         <h5>前端实习生</h5>
+       </div>
+       <div class="messsageBai">
+         <h3>个人信息</h3>
+         <div class="baiLi">
+             <ul>
+               <li>出生日期：1995.10</li>
+               <li>电话：180********3</li>
 
-<body>
-  <div id="all">
-    <div class="allLeft">
-      <div class="nameOcc">
-        <h1>侯垒</h1>
-        <h5>前端实习生</h5>
-      </div>
-      <div class="messsageBai">
-        <h3>个人信息</h3>
-        <div class="baiLi">
-            <ul>
-              <li>出生日期：1995.10</li>
-              <li>电话：180******93</li>
-              <li>博客：<br><a href="http://www.cnblogs.com/xiaobai1/">http://www.cnblogs.com/xiaobai1/</a></li>
-              <li>Github：<br><a href="https://github.com/libailei">https://github.com/libailei</a></li>
-              <li>邮箱：<br>nunu18041109893@outlook.com</li>
-              <li>地址：大 连</li>
-            </ul>
-          </div>
-      </div>
-      <div class="weiXin">
-        <img src="2.jpg"height="100" width="100"alt="微信">
-      </div>
-    </div>
 
-    <div class="allRight">
-      <div class="rightBai">
-        <h2>教育背景</h2>
-        <div class="eduBai">
-          <h4>大连工业大学</h4>
-          <h4>工业工程</h4>
-          <h4>大三</h4>
-          <p>学校教授计算机组成原理，大学计算机基础，c语言，SQL Server实用教程等基础课程</p>
-        </div>
-      </div>
-      <div class="rightBai">
-        <h2>校园经历</h2>
-        <div class="eduBai">
-          <ul>
-            <li>加入学校外联部，为校运动会，主持人大赛等活动拉取赞助，磨练了我的口才，沟通能力也得到了锻炼</li>
-            <li>作为班级的组织委员，同班长一起组织班级同学别墅聚会，海边聚餐等来达到团结同学，加深同学感情的目的</li>
-            <li>学习态度认真，不随意迟到旷课，并且积极参加校园活动</li>
-         </ul>
-        </div>
-      </div>
-      <div class="rightBai">
-        <h2>自我评价</h2>
-        <div class="eduBai">
-          <ul>
-            <li>学习前端，每一次知识的积累是沉淀，收获的也是能沉得下心去钻研的态度</li>
-            <li>学习能力强，代码规范，并努力去更加规范，可以积极主动与人沟通</li>
-            <li>性格严谨，诚实团结，与人为善，人缘不错，有一定抗压能力</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+               <li>地址：大 连</li>
+             </ul>
+           </div>
+       </div>
+       <div class="weiXin">
+         <img src="2.jpg"height="100" width="100"alt="微信">
+       </div>
+     </div>
+
+     <div class="allRight">
+       <div class="rightBai">
+         <h2>教育背景</h2>
+         <div class="eduBai">
+           <h4>大连工业大学</h4>
+           <h4>工业工程</h4>
+           <h4>大三</h4>
+           <p>学校教授计算机组成原理，大学计算机基础，c语言，SQL Server实用教程等基础课程</p>
+         </div>
+       </div>
+       <div class="rightBai">
+         <h2>校园经历</h2>
+         <div class="eduBai">
+           <ul>
+             <li>加入学校外联部，为校运动会，主持人大赛等活动拉取赞助，磨练了我的口才，沟通能力也得到了锻炼</li>
+             <li>作为班级的组织委员，同班长一起组织班级同学别墅聚会，海边聚餐等来达到团结同学，加深同学感情的目的</li>
+             <li>学习态度认真，不随意迟到旷课，并且积极参加校园活动</li>
+          </ul>
+         </div>
+       </div>
+       <div class="rightBai">
+         <h2>自我评价</h2>
+         <div class="eduBai">
+           <ul>
+             <li>学习前端，每一次知识的积累是沉淀，收获的也是能沉得下心去钻研的态度</li>
+             <li>学习能力强，代码规范，并努力去更加规范，可以积极主动与人沟通</li>
+             <li>性格严谨，诚实团结，与人为善，人缘不错，有一定抗压能力</li>
+          </ul>
+         </div>
+       </div>
+       <div class="rightBai">
+         <h2>个人项目</h2>
+         <div class="eduBai">
+           <ul>
+             <li>在线简历</li>
+             <p>也就是这份简历的在线版，纯手打，未使用模板</p>
+             <li>如下小组件，点击查看代码</li>
+          </ul>
+         </div>
+       </div>
+
+     </div>
+   </div>
+ </body>
+ </html>
