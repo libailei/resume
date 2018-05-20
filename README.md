@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # resume
 =======
 =======
@@ -49,3 +50,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 >>>>>>> parent of fe8e765... Set theme jekyll-theme-cayman
 =======
 >>>>>>> parent of eb7beff... model
+=======
+# resume
+>>>>>>> parent of fe8e765... Set theme jekyll-theme-cayman
